@@ -7,8 +7,8 @@ from qrs.loaders import prepare_cluster_loaders, prepare_signal_loaders
 
 
 def export_datasets():
-    export_cluster_dataset(n_per_loader=200)
-    export_qrs_dataset(n_per_loader=1000)
+    export_cluster_dataset(n_per_loader=100)
+    export_qrs_dataset(n_per_loader=200)
 
 
 def export_cluster_dataset(n_per_loader: int = 100):
@@ -97,3 +97,7 @@ def build_cluster_dataset(
     df = pd.DataFrame(records)
 
     return df
+
+
+if __name__ == "__main__":
+    export_datasets()
