@@ -27,4 +27,8 @@ After loading mit data one can play with signals employing different transformat
 
 ### Transformer
 
-Datasets consisting of preprocessed QRS signals can be used for training purposes in the problem o QRS-like sequence generation. This is done by employing *Transformer* architecture (see `transformer/`) based on the tutorial https://nlp.seas.harvard.edu/2018/04/03/attention.html .
+Datasets consisting of preprocessed QRS signals can be used for training purposes in the problem o QRS-like sequence generation. This is done by employing *Transformer* architecture (see `transformer/`) based on the tutorial https://nlp.seas.harvard.edu/2018/04/03/attention.html 
+
+### QRS generation
+
+in preparation...
