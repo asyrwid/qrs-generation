@@ -22,7 +22,9 @@ The files should be stored in `data/` director creating the following structure:
 
 ### QRS dataset
 
-After loading mit data one can play with signals employing different transformations, time averaging, and clustering. Such options are provided in `qrs/` directory, where apart from data massaging one can export ready-to-use datasets using functions from `qrs/export.py`. 
+After loading mit data one can play with signals employing different transformations, time averaging, and clustering. Such options are provided in `qrs/` directory, where apart from data massaging one can export ready-to-use datasets using
+
+```python -m qrs.export``` 
 
 
 ### Transformer
