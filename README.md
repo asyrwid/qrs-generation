@@ -23,3 +23,8 @@ The files should be stored in `data/` director creating the following structure:
 ### QRS dataset
 
 After loading mit data one can play with signals employing different transformations, time averaging, and clustering. Such options are provided in `qrs/` directory, where apart from data massaging one can export ready-to-use datasets using functions from `qrs/export.py`. 
+
+
+### Transformer
+
+Datasets consisting of preprocessed QRS signals can be used for training purposes in the problem o QRS-like sequence generation. This is done by employing *Transformer* architecture (see `transformer/`) based on the tutorial https://nlp.seas.harvard.edu/2018/04/03/attention.html .
